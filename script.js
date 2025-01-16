@@ -48,52 +48,52 @@ async function getWeather() {
 
                 switch (weatherType) {
                     case 'clearnight':
-                        weatherIcon = 'C:/Users/WinDows/Desktop/pp/images/clearday.png'; // Clear Day
+                        weatherIcon = 'images/clearday.png'; // Clear Day
                         break;
                     case 'cloudynight':
-                        weatherIcon = 'C:/Users/WinDows/Desktop/pp/images/cloudy.png'; // Cloudy
+                        weatherIcon = 'images/cloudy.png'; // Cloudy
                         break;
                     case 'fognight':
-                        weatherIcon = 'C:/Users/WinDows/Desktop/pp/images/fog.png'; // Fog
+                        weatherIcon = 'images/fog.png'; // Fog
                         break;
                     case 'humidnight':
-                        weatherIcon = 'C:/Users/WinDows/Desktop/pp/images/humid.png'; // Humid
+                        weatherIcon = 'images/humid.png'; // Humid
                         break;
                     case 'ishowernight':
-                        weatherIcon = 'C:/Users/WinDows/Desktop/pp/images/ishower.png'; // Isolated Showers
+                        weatherIcon = 'images/ishower.png'; // Isolated Showers
                         break;
                     case 'lightrainnight':
-                        weatherIcon = 'C:/Users/WinDows/Desktop/pp/images/lightrain.png'; // Light Rain
+                        weatherIcon = 'images/lightrain.png'; // Light Rain
                         break;
                     case 'lightsnownight':
-                        weatherIcon = 'C:/Users/WinDows/Desktop/pp/images/lightsnow.png'; // Light Snow
+                        weatherIcon = 'images/lightsnow.png'; // Light Snow
                         break;
                     case 'mcloudynight':
-                        weatherIcon = 'C:/Users/WinDows/Desktop/pp/images/mcloudy.png'; // Mostly Cloudy
+                        weatherIcon = 'images/mcloudy.png'; // Mostly Cloudy
                         break;
                     case 'oshowernight':
-                        weatherIcon = 'C:/Users/WinDows/Desktop/pp/images/oshower.png'; // Occasional Showers
+                        weatherIcon = 'images/oshower.png'; // Occasional Showers
                         break;
                     case 'pcloudynight':
-                        weatherIcon = 'C:/Users/WinDows/Desktop/pp/images/pcloudy.png'; // Partly Cloudy
+                        weatherIcon = 'images/pcloudy.png'; // Partly Cloudy
                         break;
                     case 'rainnight':
-                        weatherIcon = 'C:/Users/WinDows/Desktop/pp/images/rain.png'; // Rain
+                        weatherIcon = 'images/rain.png'; // Rain
                         break;
                     case 'rainsnow':
-                        weatherIcon = 'C:/Users/WinDows/Desktop/pp/images/rainsnow.png'; // Rain and Snow
+                        weatherIcon = 'images/rainsnow.png'; // Rain and Snow
                         break;
                         case 'tsrainnight':
-                            weatherIcon = 'C:/Users/WinDows/Desktop/pp/images/tsrain.png'; // Thunderstorm with Rain
+                            weatherIcon = 'images/tsrain.png'; // Thunderstorm with Rain
                             break;
                         case 'tstormnight':
-                            weatherIcon = 'C:/Users/WinDows/Desktop/pp/images/tstorm.png'; // Thunderstorm
+                            weatherIcon = 'images/tstorm.png'; // Thunderstorm
                             break;
                         case 'windynight':
-                            weatherIcon = 'C:/Users/WinDows/Desktop/pp/images/windy.png'; // Windy
+                            weatherIcon = 'images/windy.png'; // Windy
                             break;
                         default:
-                            weatherIcon = 'C:/Users/WinDows/Desktop/pp/images/unknown.png'; // Unknown
+                            weatherIcon = 'images/unknown.png'; // Unknown
                             break;
                     }
         
