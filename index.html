@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>European Capitals Daytime Weather Forecast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>European Capitals Daytime Weather Forecast</h1>
+        <div class="form-group">
+            <select id="city">
+                <option value="52.367,4.904,Amsterdam,Netherlands">Amsterdam, Netherlands</option>
+                <option value="39.933,32.859,Ankara,Turkey">Ankara, Turkey</option>
+                <option value="37.983,23.727,Athens,Greece">Athens, Greece</option>
+                <option value="54.597,-5.930,Belfast,Northern Ireland">Belfast, Northern Ireland</option>
+                <option value="52.520,13.405,Berlin,Germany">Berlin, Germany</option>
+                <option value="46.948,7.447,Bern,Switzerland">Bern, Switzerland</option>
+                <option value="50.847,4.357,Brussels,Belgium">Brussels, Belgium</option>
+                <option value="47.497,19.040,Bucharest,Romania">Bucharest, Romania</option>
+                <option value="59.329,18.068,Budapest,Hungary">Budapest, Hungary</option>
+                <option value="55.676,12.568,Copenhagen,Denmark">Copenhagen, Denmark</option>
+                <option value="53.349,-6.260,Dublin,Ireland">Dublin, Ireland</option>
+                <option value="55.953,-3.188,Edinburgh,Scotland">Edinburgh, Scotland</option>
+                <option value="48.856,2.352,Paris,France">Paris, France</option>
+                <option value="50.075,14.437,Prague,Czech Republic">Prague, Czech Republic</option>
+                <option value="41.902,12.496,Rome,Italy">Rome, Italy</option>
+                <option value="59.329,18.068,Stockholm,Sweden">Stockholm, Sweden</option>
+                <option value="59.437,24.753,Tallinn,Estonia">Tallinn, Estonia</option>
+                <option value="48.208,16.373,Vienna,Austria">Vienna, Austria</option>
+                <option value="52.229,21.012,Warsaw,Poland">Warsaw, Poland</option>
+                <option value="47.376,8.541,Zurich,Switzerland">Zurich, Switzerland</option>
+            </select>
+            <button onclick="getWeather()">Get Weather Forecast</button>
+        </div>
+        <div class="loading" id="loading">Fetching data...</div>
+        <div class="weather-info" id="weatherInfo"></div>
+        <div id="date-time"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
