@@ -50,7 +50,13 @@ async function getWeather() {
                     case 'clearnight':
                         weatherIcon = 'images/clearday.png'; // Clear Day
                         break;
+                        case 'clearday':
+                        weatherIcon = 'images/clearday.png'; // Clear Day
+                        break;
                     case 'cloudynight':
+                        weatherIcon = 'images/cloudy.png'; // Cloudy
+                        break;
+                        case 'cloudyday':
                         weatherIcon = 'images/cloudy.png'; // Cloudy
                         break;
                     case 'fognight':
@@ -65,10 +71,16 @@ async function getWeather() {
                     case 'lightrainnight':
                         weatherIcon = 'images/lightrain.png'; // Light Rain
                         break;
+                        case 'lightrainday':
+                            weatherIcon = 'images/lightrain.png'; // Light Rain
+                            break;
                     case 'lightsnownight':
                         weatherIcon = 'images/lightsnow.png'; // Light Snow
                         break;
                     case 'mcloudynight':
+                        weatherIcon = 'images/mcloudy.png'; // Mostly Cloudy
+                        break;
+                        case 'mcloudyday':
                         weatherIcon = 'images/mcloudy.png'; // Mostly Cloudy
                         break;
                     case 'oshowernight':
@@ -77,6 +89,9 @@ async function getWeather() {
                     case 'pcloudynight':
                         weatherIcon = 'images/pcloudy.png'; // Partly Cloudy
                         break;
+                        case 'pcloudyday':
+                            weatherIcon = 'images/pcloudy.png'; // Partly Cloudy
+                            break;
                     case 'rainnight':
                         weatherIcon = 'images/rain.png'; // Rain
                         break;
@@ -84,7 +99,7 @@ async function getWeather() {
                         weatherIcon = 'images/rainsnow.png'; // Rain and Snow
                         break;
                         case 'tsrainnight':
-                            weatherIcon = 'images/tsrain.png'; // Thunderstorm with Rain
+                            weatherIcon = 'pp/images/tsrain.png'; // Thunderstorm with Rain
                             break;
                         case 'tstormnight':
                             weatherIcon = 'images/tstorm.png'; // Thunderstorm
